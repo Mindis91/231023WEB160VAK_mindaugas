@@ -1,0 +1,45 @@
+body{
+    background-color: blanchedalmond;
+}
+h1 {
+    color: brown;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1:hover {
+        color: yellow;
+
+}
+
+.green {
+    color: green;
+}
+p.green {
+    color: rgb(9, 160, 9);
+    font-weight: bold;
+}
+
+
+
+#trecias {
+    color: black;
+}
+
+h2.sub-title.green{
+    text-align: center;
+    font-size: 32px;
+    color: coral;
+}
+table p {
+    font-size: 10px;
+}
+
+table, th, td {
+    border: 3px solid green ;
+}
+
+.kursyvas {
+    font-style: italic;
+}
