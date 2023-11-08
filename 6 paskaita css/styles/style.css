@@ -1,0 +1,45 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    background-color: aliceblue;
+
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 132, 139);
+    flex-wrap: wrap;
+}
+
+.first-box {
+    background-color: red;
+    width: 250px;
+    /* flex-shrink: 0; */
+}
+.second-box {
+    background-color: green;
+    
+    width: 60%;
+    /* flex-shrink: 1; */
+}
+.box.third-box {
+    background-color: blue;
+    width: 250px;
+    /* flex-shrink: 0; */
+}
+.galery {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galery img {
+    width: calc(100%/3 - 60px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
